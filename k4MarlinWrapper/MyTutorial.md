@@ -51,6 +51,9 @@ k4run ../k4MarlinWrapper/examples/runit.py 1> ../../results/k4run.out 2> ../../r
 
 ### Display available tests
 ```
+ctest -N
+```
+```
 $ ctest -N
 Test project /path/to/build
   Test #1: simple_processors
