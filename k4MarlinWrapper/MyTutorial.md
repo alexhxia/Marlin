@@ -4,17 +4,18 @@ Basée sur https://github.com/key4hep/k4MarlinWrapper.
 ## Configuring, compiling and installing
 
 ```
-$ source /cvmfs/sw.hsf.org/key4hep/setup.sh
+$ source /cvmfs/sw-nightlies.hsf.org/key4hep/setup.sh
 Setting up the latest Key4HEP software stack from CVMFS ...
- ...  Key4HEP release: key4hep-stack/2022-05-21
+ ...  Key4HEP release: key4hep-stack/master-2022-05-24
  ... Use the following command to reproduce the current environment: 
  ... 
-         source /cvmfs/sw.hsf.org/spackages5/key4hep-stack/2022-05-21/x86_64-centos7-gcc11.2.0-opt/7c3ak/setup.sh
+         source /cvmfs/sw-nightlies.hsf.org/spackages5/key4hep-stack/master-2022-05-24/x86_64-centos7-gcc11.2.0-opt/ikkhy/setup.sh
  ... 
  ... done. 
+
 ```
 ```
-source /cvmfs/sw.hsf.org/spackages5/key4hep-stack/2022-05-21/x86_64-centos7-gcc11.2.0-opt/7c3ak/setup.sh
+source /cvmfs/sw-nightlies.hsf.org/spackages5/key4hep-stack/master-2022-05-24/x86_64-centos7-gcc11.2.0-opt/ikkhy/setup.sh
 ```
 ```
 git clone https://github.com/key4hep/k4MarlinWrapper.git
