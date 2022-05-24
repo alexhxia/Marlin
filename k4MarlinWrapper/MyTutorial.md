@@ -73,6 +73,33 @@ Total Tests: 9
 ```
 ctest
 ```
+```
+$ ctest
+Test project /home/ilc/ahocine/k4MarlinWrapper/build
+    Start 1: simple_processors
+1/9 Test #1: simple_processors ................   Passed    4.34 sec
+    Start 2: simple_processors2
+2/9 Test #2: simple_processors2 ...............   Passed    4.72 sec
+    Start 3: clicRec
+3/9 Test #3: clicRec ..........................   Passed   82.07 sec
+    Start 4: converter_constants
+4/9 Test #4: converter_constants ..............   Passed    5.36 sec
+    Start 5: edm_converters
+5/9 Test #5: edm_converters ...................   Passed    1.56 sec
+    Start 6: all_events_bounds
+6/9 Test #6: all_events_bounds ................   Passed    4.34 sec
+    Start 7: over_total_events
+7/9 Test #7: over_total_events ................   Passed    4.31 sec
+    Start 8: same_num_io
+8/9 Test #8: same_num_io ......................   Passed    2.64 sec
+    Start 9: clicRec_lcio_mt
+9/9 Test #9: clicRec_lcio_mt ..................   Passed   86.75 sec
+
+100% tests passed, 0 tests failed out of 9
+
+Total Test time (real) = 196.13 sec
+```
+
 ### Run specific test with verbose output
 ```
 ctest --verbose -R test_clicReconstruction
